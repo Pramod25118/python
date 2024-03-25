@@ -1,0 +1,46 @@
+Lists: Grouping nums, strings together we use lists. lists are mutable (mutable simply means change the values)
+Ex : nums= [1, 2, 3, 4]
+nums = [23, 22, 12, 1]
+nums
+[23, 22, 12, 1]
+string is a collection of characters we can pick up individual chars by index valuse
+SyntaxError: invalid syntax
+nums[0]
+23
+nums[2]
+12
+nums[1:3]
+[22, 12]
+nums[2:]
+[12, 1]
+names = ['pramod', 'manju', 'pavan']
+names
+['pramod', 'manju', 'pavan']
+values = [2.4, 'pramod', 55]
+values
+[2.4, 'pramod', 55]
+names[2]
+'pavan'
+mil = [nums, names,values]
+mil
+[[23, 22, 12, 1], ['pramod', 'manju', 'pavan'], [2.4, 'pramod', 55]]
+SyntaxError: invalid syntax
+nums.append(45)
+nums
+[23, 22, 12, 1, 45]
+nums.insert(2,33)
+nums
+[23, 22, 33, 12, 1, 45]
+nums.pop()
+45
+nums
+[23, 22, 33, 12, 1]
+min(nums)
+1
+sum(nums)
+91
+sum(values)
+Traceback (most recent call last):
+  File "<pyshell#23>", line 1, in <module>
+    sum(values)
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
