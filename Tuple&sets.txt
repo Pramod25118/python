@@ -1,0 +1,35 @@
+Tuple:
+Tuple is almost same as lists, it is Immutable(means can not change values)
+round brackets defines tuple, iteration in tuple is faster than list means it will increases the speed of the execution
+To create a tuple with only one item, you have to add a comma after the item, otherwise Python will not recognize it as a tuple.
+Ex:
+thistuple = ("apple",)
+print(type(thistuple))
+#NOT a tuple
+thistuple = ("apple")
+print(type(thistuple))
+
+tup = (32, 23, 34, 22, 45, 56)
+I/P:   tup
+O/P: (32, 23, 34, 22, 45, 56)
+I/P: tup[1]
+O/P: 23
+I/P: tup.count(32)
+O/P: 1
+I/P: tup[2] = 11
+O/P: WILL GET ERROR
+    TypeError: 'tuple' object does not support item assignment : it means we can't change the value
+
+
+
+Sets: collection of elements, used with flower brackets,  same as lists it never follows a sequence, when elements are repeated it will not rewrite the same element again
+and sets will not allow duplicate elements
+Ex:
+s={23, 45, 67, 89, 90, 33}
+s
+{33, 67, 23, 89, 90, 45}
+s= {2, 3, 4, 5, 6, 1, 2, 2}
+s
+{1, 2, 3, 4, 5, 6}
+
+we can use s.(dot) + trl&spacebar for other extensions for diffeent purpose
